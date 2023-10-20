@@ -1,0 +1,19 @@
+{
+  "name": "cypress-multiple-set-cookie-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cypress": "12.17.4",
+    "express": "^4.18.2",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "start": "bun ./server.ts",
+    "cy": "cypress open"
+  },
+  "devDependencies": {
+    "bun-types": "^1.0.6"
+  }
+}
